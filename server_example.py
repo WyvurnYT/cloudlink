@@ -2,6 +2,7 @@ from cloudlink import server
 from cloudlink.server.protocols import clpv4, scratch
 import asyncio
 
+
 class example_callbacks:
     def __init__(self, parent):
         self.parent = parent
@@ -88,4 +89,4 @@ if __name__ == "__main__":
     # server.enable_ssl(certfile="cert.pem", keyfile="privkey.pem")
     
     # Start the server
-    server.run(host='0.0.0.0', port=3000)
+    server.run(ip="127.0.0.1", port=3000)
