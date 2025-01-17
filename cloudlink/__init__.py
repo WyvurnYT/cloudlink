@@ -1,2 +1,2 @@
-from .clpv4.clpv4 import *
-from .scratch.scratch import *
+from .server import server
+from .client import client
