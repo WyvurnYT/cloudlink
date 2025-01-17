@@ -1,6 +1,6 @@
 from ./cloudlink import cloudlink
-from cloudlink import server
-from cloudlink.server.protocols import clpv4, scratch
+from ./cloudlink import server
+from ./cloudlink.server.protocols import clpv4, scratch
 import asyncio
 import os
 
